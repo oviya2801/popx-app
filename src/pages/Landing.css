@@ -1,0 +1,73 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px 30px 52px;
+  background: #fff;
+  min-height: 100%;
+}
+
+.landing-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 36px;
+}
+
+.landing-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 14px;
+  line-height: 1.25;
+}
+
+.landing-desc {
+  font-size: 15px;
+  color: #888;
+  line-height: 1.65;
+  max-width: 280px;
+}
+
+.landing-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 16px;
+  background: #6C25FF;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+  letter-spacing: 0.2px;
+}
+
+.btn-primary:hover { background: #5a1ee0; }
+.btn-primary:active { transform: scale(0.98); }
+
+.btn-secondary {
+  width: 100%;
+  padding: 16px;
+  background: #EDE8FF;
+  color: #6C25FF;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+  letter-spacing: 0.2px;
+}
+
+.btn-secondary:hover { background: #ddd4ff; }
+.btn-secondary:active { transform: scale(0.98); }
